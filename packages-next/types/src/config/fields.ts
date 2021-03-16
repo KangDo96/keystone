@@ -1,5 +1,6 @@
 import { PrismaFieldAdapter } from '@keystone-next/adapter-prisma-legacy';
 import { Implementation } from '@keystone-next/fields';
+import type { CacheHint } from 'apollo-cache-control';
 import { AdminMetaRootVal } from '../admin-meta';
 import type { BaseGeneratedListTypes, JSONValue } from '../utils';
 import type { ListHooks } from './hooks';
@@ -40,5 +41,10 @@ export type FieldConfig<TGeneratedListTypes extends BaseGeneratedListTypes> = {
     createView?: { fieldMode?: MaybeSessionFunction<'edit' | 'hidden'> };
     listView?: { fieldMode?: MaybeSessionFunction<'read' | 'hidden'> };
     itemView?: { fieldMode?: MaybeItemFunction<'edit' | 'read' | 'hidden'> };
+  };
+  graphql?: {
+    cacheHint?:
+      | ((args: { results: any[]; operationName: string; meta: boolean }) => CacheHint)
+      | CacheHint;
   };
 };
