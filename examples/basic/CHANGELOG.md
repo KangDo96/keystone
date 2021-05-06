@@ -1,5 +1,17 @@
 # @keystone-next/app-basic
 
+## 3.0.3
+
+### Patch Changes
+
+- [#5622](https://github.com/keystonejs/keystone/pull/5622) [`bb8920843`](https://github.com/keystonejs/keystone/commit/bb8920843a1e0d803b8238bd17e9d65802698685) Thanks [@timleslie](https://github.com/timleslie)! - Disabled sorting for relationship fields.
+
+- Updated dependencies [[`11814ce98`](https://github.com/keystonejs/keystone/commit/11814ce9865bc14ffdf5ca2a09b7221001539857), [`b0a72a112`](https://github.com/keystonejs/keystone/commit/b0a72a112dae7857defc8b745e674d55a29be766), [`79a0844b9`](https://github.com/keystonejs/keystone/commit/79a0844b9d5125891e3eaad4dc3999b232cefaa2), [`11814ce98`](https://github.com/keystonejs/keystone/commit/11814ce9865bc14ffdf5ca2a09b7221001539857), [`7e24b9c2a`](https://github.com/keystonejs/keystone/commit/7e24b9c2ab9313753932a27c45d238a2e9a61e9f), [`483932276`](https://github.com/keystonejs/keystone/commit/483932276f15f0f6fcda3cfa6e1ece886d35550e), [`868d89f29`](https://github.com/keystonejs/keystone/commit/868d89f29156740b6ea0482e97108bfa58feda73), [`bb8920843`](https://github.com/keystonejs/keystone/commit/bb8920843a1e0d803b8238bd17e9d65802698685)]:
+  - @keystone-next/admin-ui@14.1.2
+  - @keystone-next/fields@8.2.0
+  - @keystone-next/fields-document@5.0.2
+  - @keystone-next/auth@23.0.1
+
 ## 3.0.2
 
 ### Patch Changes

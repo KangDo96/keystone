@@ -1,5 +1,15 @@
 # @keystone-next/fields-document
 
+## 5.0.2
+
+### Patch Changes
+
+- [#5618](https://github.com/keystonejs/keystone/pull/5618) [`7e24b9c2a`](https://github.com/keystonejs/keystone/commit/7e24b9c2ab9313753932a27c45d238a2e9a61e9f) Thanks [@gwyneplaine](https://github.com/gwyneplaine)! - Added logic to ensure the block-menu in the toolbar is hidden when no component blocks or relationships are provided.
+
+- Updated dependencies [[`11814ce98`](https://github.com/keystonejs/keystone/commit/11814ce9865bc14ffdf5ca2a09b7221001539857), [`b0a72a112`](https://github.com/keystonejs/keystone/commit/b0a72a112dae7857defc8b745e674d55a29be766), [`79a0844b9`](https://github.com/keystonejs/keystone/commit/79a0844b9d5125891e3eaad4dc3999b232cefaa2), [`11814ce98`](https://github.com/keystonejs/keystone/commit/11814ce9865bc14ffdf5ca2a09b7221001539857), [`bb8920843`](https://github.com/keystonejs/keystone/commit/bb8920843a1e0d803b8238bd17e9d65802698685)]:
+  - @keystone-next/admin-ui@14.1.2
+  - @keystone-next/fields@8.2.0
+
 ## 5.0.1
 
 ### Patch Changes

@@ -1,5 +1,17 @@
 # @keystone-next/auth
 
+## 23.0.1
+
+### Patch Changes
+
+- [#5614](https://github.com/keystonejs/keystone/pull/5614) [`483932276`](https://github.com/keystonejs/keystone/commit/483932276f15f0f6fcda3cfa6e1ece886d35550e) Thanks [@timleslie](https://github.com/timleslie)! - Updated `withAuth` to respect `config.ui.isDisabled`. Now works as expected when `config.ui` is undefined.
+
+* [#5624](https://github.com/keystonejs/keystone/pull/5624) [`868d89f29`](https://github.com/keystonejs/keystone/commit/868d89f29156740b6ea0482e97108bfa58feda73) Thanks [@timleslie](https://github.com/timleslie)! - Disabled the `Forgot your password` button on the signin page, which is not yet functional.
+
+* Updated dependencies [[`11814ce98`](https://github.com/keystonejs/keystone/commit/11814ce9865bc14ffdf5ca2a09b7221001539857), [`b0a72a112`](https://github.com/keystonejs/keystone/commit/b0a72a112dae7857defc8b745e674d55a29be766), [`79a0844b9`](https://github.com/keystonejs/keystone/commit/79a0844b9d5125891e3eaad4dc3999b232cefaa2), [`11814ce98`](https://github.com/keystonejs/keystone/commit/11814ce9865bc14ffdf5ca2a09b7221001539857), [`bb8920843`](https://github.com/keystonejs/keystone/commit/bb8920843a1e0d803b8238bd17e9d65802698685)]:
+  - @keystone-next/admin-ui@14.1.2
+  - @keystone-next/fields@8.2.0
+
 ## 23.0.0
 
 ### Patch Changes

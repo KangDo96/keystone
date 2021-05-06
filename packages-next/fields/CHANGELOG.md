@@ -1,5 +1,20 @@
 # @keystone-next/fields
 
+## 8.2.0
+
+### Minor Changes
+
+- [#5630](https://github.com/keystonejs/keystone/pull/5630) [`79a0844b9`](https://github.com/keystonejs/keystone/commit/79a0844b9d5125891e3eaad4dc3999b232cefaa2) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Added `ui.displayMode: 'count'` to `many` relationship fields
+
+### Patch Changes
+
+- [#5629](https://github.com/keystonejs/keystone/pull/5629) [`11814ce98`](https://github.com/keystonejs/keystone/commit/11814ce9865bc14ffdf5ca2a09b7221001539857) Thanks [@gwyneplaine](https://github.com/gwyneplaine)! - Updated docs link to next.keystonejs.com.
+
+* [#5622](https://github.com/keystonejs/keystone/pull/5622) [`bb8920843`](https://github.com/keystonejs/keystone/commit/bb8920843a1e0d803b8238bd17e9d65802698685) Thanks [@timleslie](https://github.com/timleslie)! - Disabled sorting for relationship fields.
+
+* Updated dependencies [[`11814ce98`](https://github.com/keystonejs/keystone/commit/11814ce9865bc14ffdf5ca2a09b7221001539857), [`b0a72a112`](https://github.com/keystonejs/keystone/commit/b0a72a112dae7857defc8b745e674d55a29be766)]:
+  - @keystone-next/admin-ui@14.1.2
+
 ## 8.1.0
 
 ### Minor Changes

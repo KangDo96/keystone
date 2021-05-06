@@ -1,5 +1,13 @@
 # @keystone-next/admin-ui
 
+## 14.1.2
+
+### Patch Changes
+
+- [#5629](https://github.com/keystonejs/keystone/pull/5629) [`11814ce98`](https://github.com/keystonejs/keystone/commit/11814ce9865bc14ffdf5ca2a09b7221001539857) Thanks [@gwyneplaine](https://github.com/gwyneplaine)! - Updated docs link to point to next.keystonejs.com.
+
+* [#5623](https://github.com/keystonejs/keystone/pull/5623) [`b0a72a112`](https://github.com/keystonejs/keystone/commit/b0a72a112dae7857defc8b745e674d55a29be766) Thanks [@timleslie](https://github.com/timleslie)! - Improved the default value for `ui.initialColumns` to show the first three fields, rather than just the label field.
+
 ## 14.1.1
 
 ### Patch Changes
